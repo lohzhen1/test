@@ -1,0 +1,28 @@
+{
+  "name": "earthkeepers",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
+    "@paypal/paypal-js": "^7.0.3",
+    "axios": "^1.5.1",
+    "firebase": "^10.5.2",
+    "uuid": "^9.0.1",
+    "vue": "^3.3.4",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-google-maps-ui": "^1.0.0",
+    "vue-router": "^4.2.4",
+    "vue2-google-maps": "^0.10.7",
+    "vue3-google-map": "^0.18.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
+  }
+}
