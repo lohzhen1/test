@@ -139,7 +139,7 @@ export default {
               //console.log('Data saved successfully');
               // Additional logic after saving the data, if needed
               alert("You have successfully uploaded the picture! Please wait for our admin staff to check and approve the picture!")
-              location.reload();
+              
             } else {
               console.error('Error saving data');
             }
