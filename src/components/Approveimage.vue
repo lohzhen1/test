@@ -135,6 +135,7 @@ export default {
           
 
                 // Refresh the page after deleting the documents
+                location.reload()
              
                 } else {
                 console.log("Approval cancelled by user");
@@ -156,6 +157,7 @@ export default {
             console.log("Document deleted successfully from recycleImage");
       
             alert("Recycle image info successfully deleted");
+            location.reload()
        
           } else {
             console.log("Decline cancelled by user");
